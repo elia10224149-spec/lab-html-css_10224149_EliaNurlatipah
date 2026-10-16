@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus News</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    header {
+      background: #dbe7f3;
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      padding: 16px;
+    }
+    #news-list {
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Campus News</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <img src="https://placehold.co/600x200?text=News" alt="News Image">
+      <ul id="news-list">
+        <li>New library books have arrived</li>
+        <li>Coding Day registration is open</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 STT Cipasung</p>
+  </footer>
+</body>
+</html>
+EOF
+
+cat << 'EOF' > review-fixed.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+    }
+    nav a {
+      color: #cccccc;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: white;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+    form p {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    footer {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>STT Cipasung</h1>
+    <nav>
+      <a href="#">Home</a> | 
+      <a href="#">Programs</a> | 
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" alt="STT Cipasung Campus">
+    </section>
+
+    <section>
+      <h2 class="section-title">Contact Us</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="rev-name">Name</label>
+          <input type="text" id="rev-name" name="name">
+        </p>
+        <p>
+          <label for="rev-email">Email</label>
+          <input type="email" id="rev-email" name="email">
+        </p>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2026</p>
+  </footer>
+
+</body>
+</html>

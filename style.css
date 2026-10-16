@@ -1,0 +1,96 @@
+/* type selector */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.6;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* id selector */
+#about {
+  border-top: 3px solid #003366;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+/* descendant selector */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+/* pseudo-class selector */
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* class selector */
+section {
+  background: white;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* grouping selector */
+h1, h2, h3 {
+  color: #003366;
+}
+
+header h1, header p {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e6f0fa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 16px;
+  color: #666;
+}
